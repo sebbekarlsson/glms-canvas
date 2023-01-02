@@ -70,7 +70,8 @@ endif()
 
 FetchContent_Declare(
 	glms_static
-	GIT_REPOSITORY https://github.com/sebbekarlsson/glms.git
+	URL /home/ianertson/workspace/glms
+#	GIT_REPOSITORY https://github.com/sebbekarlsson/glms.git
 	)
 	FetchContent_MakeAvailable(glms_static)
 
